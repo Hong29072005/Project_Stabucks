@@ -1,0 +1,952 @@
+*{
+    margin-top: 0;
+    margin-left: 0;
+}
+
+header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+   
+    box-shadow: 1px 2px 20px rgb(134, 133, 133);
+}
+
+
+#logo{  
+    width: 7%;
+
+}
+#bar{
+    display: none;
+}
+#cencel_bar{
+    display: none;
+    
+}
+.menu{
+    flex: 1;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2rem;
+}
+.menu ul{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-top:-1rem;
+}
+.menu ul li{
+    padding: 0.5rem;
+    list-style: none;
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+}
+.menu ul li :hover{
+    color: #6b7e57;
+}
+.locatio{
+    flex: 1;
+    
+}
+.locatio ul{
+    display: flex;
+    margin-left: 20%;
+    align-items: center;
+    margin-top: -1rem;
+}
+.locatio ul li{
+    padding: 1rem;
+    list-style: none;
+    margin-right: 4rem;
+}
+.locatio ul li a:hover{
+    color: #6b7e57;
+}
+.locatio ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#btn1{
+    padding: 0.5rem 1.5rem;
+    border: 1px solid black;
+    border-radius: 2rem;
+    font-weight: bold;
+    margin-right: -5rem;
+}
+#btn2{
+    padding: 0.5rem 2rem;
+    border: 1px solid black;
+    border-radius: 2rem;
+    background-color: black;
+    font-weight: bold;
+    color: white;
+}
+/* Featured */
+.Featured{
+    width: 100%;
+    height: 100vh;
+    color: gray;
+}
+.Featured h1{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    padding: 2rem 12rem;
+}
+/* gift_item */
+
+.gift_item{
+    display: flex;
+    width: 80%;
+    margin: auto;
+ 
+    overflow-x: scroll;
+   
+}
+.gift_item img{
+    width: 25%;
+    padding: 0px 1rem;
+    border: none;
+    border-radius: 30px;
+    
+}
+.gift_item img:hover {
+    transform: scale(1,1.1);
+}
+/* group_gift_card */
+.group_gift_card{
+    display: flex;
+    margin-top: 2rem;
+    width: 80%;
+    margin-left: 11rem;
+    height: 10vh;
+    background-color: rgb(194, 189, 189);
+    border: none;
+    border-radius: 1rem;
+}
+.group_gift_card img{
+    width: 5%;
+    padding: 10px;
+}
+.group_gift_card h1{
+    margin-left: -10rem;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+/* Received */
+.Received{
+    width: 100%;
+    height: 20vh;
+    position: absolute;
+    margin-top: -20rem;
+ 
+   background-color: rgb(186, 203, 197);
+   
+}
+.receive{
+    display: flex;
+    align-items: center;
+    padding: 2rem 10rem;
+}
+.receive h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.receive p{
+    color: gray;
+    margin-left: 1rem;
+}
+.receive button{
+    padding: 0.5rem 2rem;
+    margin-top: -1rem;
+    margin-left: 1rem;
+    border:1px solid black;
+    border-radius: 1rem;
+}
+#card{
+    margin-top: -1rem;
+    margin-left: 90rem;
+}
+#card a{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: rgb(19, 72, 19);
+}
+/* Valentine_day */
+#Valentine_day{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 7rem;
+    margin-top: -8rem;
+}
+.Valentine_day{
+    width: 90%;
+    height: 25vh;
+    margin: auto;
+    display: flex;
+    margin-top: 2rem;
+    
+}
+.Valentine_day img{
+    width: 40%;
+    padding: 0rem 1rem;
+    border: none;
+    
+}
+.Valentine_day img:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+/* HappyBirthday */
+#happybirth_day{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 7rem;
+    margin-top: 2rem;
+}
+.happybirth_day{
+    width: 90%;
+    height: 25vh;
+    margin: auto;
+    display: flex;
+    margin-top: 2rem;
+    
+}
+.happybirth_day img{
+    width: 40%;
+    padding: 0rem 1rem;
+    border: none;
+    border-radius: 2rem;
+}
+.happybirth_day img:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+/* New year */
+#new_year{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 7rem;
+    margin-top: 2rem;
+}
+.new_year{
+    width: 90%;
+    height: 25vh;
+    margin: auto;
+ 
+    margin-top: 2rem;
+    
+}
+.new_year img{
+    width: 25%;
+    padding: 0rem 1rem;
+    border: none;
+    border-radius: 2rem;
+}
+.new_year img:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+/* Appriceation */
+#appriceation{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 7rem;
+    margin-top: 4rem;
+}
+.appriceation{
+    width: 60%;
+    height: 25vh;
+    margin-left: 7rem;
+ 
+    margin-top: 2rem;
+    
+}
+.appriceation img{
+    width: 30%;
+    padding: 0rem 0.5rem;
+    border: none;
+    border-radius: 2rem;
+}
+.appriceation img:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+/* Winter */
+#winter{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 7rem;
+    margin-top: 2rem;
+}
+.winter{
+    width: 90%;
+    height: 25vh;
+    margin: auto;
+    display: flex;
+    margin-top: 2rem;
+    
+}
+.winter img{
+    width: 40%;
+    padding: 0rem 1rem;
+    border: none;
+    border-radius: 2rem;
+}
+.winter img:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+/* Last */
+.Last{
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(203, 198, 198);
+    margin-top: 2rem;
+    
+}
+.last{
+    width: 50%;
+    height: 40vh;
+    margin-left: 7rem;
+    display: flex;
+}
+.last img{
+    width: 40%;
+    padding: 50px;
+}
+.last_txt{
+    width: 40%;
+
+    margin-left: -5rem;
+    padding: 10%;
+  
+}
+.last h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.last p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.last button{
+    padding: 0.5rem 2rem;
+    border: 1.5px solid black;
+    border-radius: 1rem;
+    background-color: rgb(203, 198, 198);
+}
+.last button:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+/* About_gift_card */
+.About_gift_card{
+    width: 100%;
+    height: 50vh;
+    margin-top: -2rem;
+}
+.About_gift_card{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.box_card_left{
+    width: 50%;
+
+    padding: 60px;
+    margin-left: -12rem;
+}
+.box_card_left h1{
+    
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.box_card_left p{
+    margin-top: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box_card_left button{
+    padding: 0.5rem 1.5rem;
+    border: 1.5px solid black;
+    border-radius: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.box_card_left button:hover{
+    background-color: white;
+}
+.box_card_right{
+    width: 50%;
+
+    padding: 60px;
+    margin-left: -12rem;
+}
+.box_card_right h1{
+    
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.box_card_right p{
+    margin-top: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box_card_right button{
+    padding: 0.5rem 1.5rem;
+    border: 1.5px solid black;
+    border-radius: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.box_card_right button:hover{
+    background-color: white;
+}
+/* footer */
+#hr{
+    margin-top: 3rem;
+    color: gray;
+}
+.footer{
+    width: 70%;
+    height: 60vh;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+div ul li{
+    list-style: none;
+    margin-top: 2rem;
+}
+div ul li a{
+    text-decoration: none;
+    color: rgb(125, 123, 123);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div ul li a:hover{
+    color: black;
+}
+#about{
+    margin-left: 3rem;
+    font-size: 20px;
+    
+}
+#carrer{
+    margin-left: 2.5rem;
+    font-size: 20px;
+}
+#socail{
+    margin-left: 2.5rem;
+    font-size: 20px;
+}
+#business{
+    margin-left: 2.5rem;
+    font-size: 20px;
+}
+#order{
+    margin-left: 2.5rem;
+    font-size: 20px;
+}
+.social{
+    width: 100%;
+    height: 60vh;
+  
+    margin-top: 2rem;
+}
+.social_b {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(255, 253, 253);
+    margin-left: 7rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between
+}
+.social ul{
+    margin-left: 6rem;
+}
+
+/* Responsive */
+@media only screen and (max-width:600px){
+    header{
+        width: 600px;
+    }
+    #bar{
+        display: block;
+        font-size: 30px;
+        margin-left: 15rem;
+    }
+    #cancel_bar{
+        display: none;
+        font-size: 40px;
+        margin-left:5rem;
+    }
+    #logo{
+        width: 25%;
+    }
+  
+
+    .menu ul{
+        position: absolute;
+        width: 100%;
+        
+        background-color: rgb(139, 139, 139);
+        flex: 1;
+        display: block;
+        flex-direction: column;
+        padding: 0.5px;
+        margin-top:16rem;
+        /* margin-left:-9%; */
+        margin-left: 100%;
+       
+    }
+    .menu ul li{
+        padding: 1px;
+        list-style: none;
+        margin-left: 2rem;
+        margin-top: 2;
+    
+        
+       
+        
+    }
+    .menu ul li a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-family: Arial, Helvetica, sans-serif;
+       font-weight: bold;
+    }
+    .menu ul li :hover{
+        color: #6b7e57;
+    }
+
+    .locatio ul{
+        display: none;
+    }
+
+    .Featured{
+        width: 100%;
+        height: 100vh;
+        color: gray;
+        
+    }
+    .Featured h1{
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: gray;
+        padding: 2rem 12rem;
+        margin-left: -10rem;
+    }
+
+    .gift_item{
+        display: flex;
+        width: 100%;
+        margin: auto;
+     
+        overflow-x: scroll;
+       
+    }
+    .gift_item img{
+        width: 50%;
+        padding: 0px 1rem;
+        border: none;
+        border-radius: 0px;
+        
+    }
+    .gift_item img:hover {
+        transform: scale(1,1.1);
+    }
+
+    .group_gift_card{
+        display: flex;
+        margin-top: 2rem;
+        width: 80%;
+        margin-left: 1rem;
+        height: 10vh;
+        background-color: rgb(194, 189, 189);
+        border: none;
+        border-radius: 1rem;
+    }
+    .group_gift_card img{
+        width:20%;
+        padding: 10px;
+    }
+    .group_gift_card h1{
+      
+        padding: 50px 50px;
+        margin-left: -2rem;
+        margin-top: -2rem;
+        font-size: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+    }
+
+    .Received{
+        width: 100%;
+        height: 28vh;
+        position: absolute;
+        margin-top: -20rem;
+     
+       background-color: rgb(186, 203, 197);
+       
+    }
+    .receive{
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem 10rem;
+    }
+    .receive h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        margin-left: -9rem;
+        margin-top: -1rem;
+    }
+    .receive p{
+        color: gray;
+        margin-left: -13rem;
+    }
+    .receive button{
+        padding: 0.5rem 2rem;
+        margin-top: 0.5rem;
+        margin-left: -13rem;
+        border:1px solid black;
+        border-radius: 1rem;
+    }
+
+    #Valentine_day{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        margin-left: 1rem;
+        margin-top: -4rem;
+    }
+    .Valentine_day{
+        width: 100%;
+        height: 15vh;
+        margin: auto;
+        display: flex;
+        overflow-x: scroll;
+        margin-top: 2rem;
+        
+    }
+    .Valentine_day img{
+        width: 50%;
+        padding: 0rem 1rem;
+        border: none;
+        
+    }
+    .Valentine_day img:hover{
+        transform: scale(1.1);
+        transition: 0.3s ease-in-out;
+        border-radius: 2rem;
+        cursor: pointer;
+    }
+
+    #happybirth_day{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        margin-left: 1rem;
+        margin-top: 2rem;
+    }
+    .happybirth_day{
+        width: 100%;
+        height: 15vh;
+        margin: auto;
+        display: flex;
+        overflow-x: scroll;
+        margin-top: 2rem;
+        
+    }
+    .happybirth_day img{
+        width: 50%;
+        padding: 0rem 1rem;
+        border: none;
+        border-radius: 0rem;
+    }
+    .happybirth_day img:hover{
+        transform: scale(1.1);
+        transition: 0.3s ease-in-out;
+    }
+
+    #new_year{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        margin-left: 1rem;
+        margin-top: 2rem;
+    }
+    .new_year{
+        width: 100%;
+        height: 15vh;
+        margin: auto;
+     
+        margin-top: 2rem;
+        
+    }
+    .new_year img{
+        width: 50%;
+        padding: 0rem 1rem;
+        border: none;
+        border-radius: 0rem;
+    }
+    .new_year img:hover{
+        transform: scale(1.1);
+        transition: 0.3s ease-in-out;
+    }
+
+    #appriceation{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        margin-left: 1rem;
+        margin-top: 4rem;
+    }
+    .appriceation{
+        width: 100%;
+        height: 15vh;
+        margin-left: 1rem;
+        display: flex;
+        margin-top: 2rem;
+        overflow-x: scroll;
+        
+    }
+    .appriceation img{
+        width: 50%;
+        padding: 0rem 0.5rem;
+        border: none;
+        border-radius: 0rem;
+    }
+    .appriceation img:hover{
+        transform: scale(1.1);
+        transition: 0.3s ease-in-out;
+    }
+
+
+
+    #winter{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        margin-left: 1rem;
+        margin-top: 2rem;
+    }
+    .winter{
+        width: 100%;
+        height: 15vh;
+        margin: auto;
+        display: flex;
+        margin-top: 2rem;
+        
+    }
+    .winter img{
+        width: 50%;
+        padding: 0rem 1rem;
+        border: none;
+        border-radius: 0rem;
+    }
+    .winter img:hover{
+        transform: scale(1.1);
+        transition: 0.3s ease-in-out;
+    }
+
+    .Last{
+        width: 100%;
+       
+        background-color: rgb(255, 255, 255);
+        margin-top: 2rem;
+        
+    }
+    .last{
+        width: 100%;
+        height: 40vh;
+        margin-left: 7rem;
+        flex-direction: column;
+    }
+    .last img{
+        width: 90%;
+        padding: 10px;
+        margin-left: -6.25rem;
+       
+    }
+    .last_txt{
+        width: 90%;
+    
+        margin-left: -8rem;
+        padding: 10%;
+      
+    }
+    .last h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .last p{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .last button{
+        padding: 0.5rem 2rem;
+        border: 1.5px solid black;
+        border-radius: 1rem;
+        background-color: rgb(203, 198, 198);
+    }
+    .last button:hover{
+        transform: scale(1.1);
+        transition: 0.3s ease-in-out;
+    }
+
+    .About_gift_card{
+        width: 80%;
+        margin: auto;
+        flex-direction: column;
+        margin-top: 5rem;
+    
+    }
+    .box_card_left{
+        width: 100%;
+    
+        padding: 60px;
+        margin-left: -6rem;
+    }
+    .box_card_left h1{
+        
+        font-size: 20px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    .box_card_left p{
+        margin-top: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .box_card_left button{
+        padding: 0.5rem 1.5rem;
+        border: 1.5px solid black;
+        border-radius: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+    .box_card_left button:hover{
+        background-color: white;
+    }
+    .box_card_right{
+        width: 100%;
+    
+        padding: 60px;
+        margin-left: -6rem;
+    }
+    .box_card_right h1{
+        
+        font-size: 20px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    .box_card_right p{
+        margin-top: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .box_card_right button{
+        padding: 0.5rem 1.5rem;
+        border: 1.5px solid black;
+        border-radius: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+    .box_card_right button:hover{
+        background-color: white;
+    }
+
+    #hr{
+        margin-top: 45rem;
+        color: gray;
+    }
+    .footer{
+        width: 70%;
+        height: 60vh;
+        margin-left: 0rem;
+        margin-top: 2rem;
+       flex-direction: column;
+    }
+    div ul li{
+        list-style: none;
+        margin-top: 2rem;
+    }
+    div ul li a{
+        text-decoration: none;
+        color: rgb(125, 123, 123);
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    div ul li a:hover{
+        color: black;
+    }
+    #about{
+        margin-left: 3rem;
+        font-size: 20px;
+        
+    }
+    #carrer{
+        margin-left: 2.5rem;
+        font-size: 20px;
+    }
+    #socail{
+        margin-left: 2.5rem;
+        font-size: 20px;
+    }
+    #business{
+        margin-left: 2.5rem;
+        font-size: 20px;
+    }
+    #order{
+        margin-left: 2.5rem;
+        font-size: 20px;
+    }
+    .social{
+        width: 100%;
+        height: 60vh;
+        margin-left: -5rem;
+        margin-top: 80rem;
+    }
+    .social_b {
+        width: 40px;
+        height: 40px;
+        border: none;
+        border-radius: 50%;
+        background-color: rgb(255, 253, 253);
+        margin-left: 7rem;
+        margin-top: 2rem;
+        display: flex;
+        justify-content: space-between
+    }
+    .social ul{
+        margin-left: 6rem;
+    }
+    
+}

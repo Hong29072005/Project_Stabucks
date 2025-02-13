@@ -1,0 +1,1043 @@
+*{
+    margin-top: 0;
+    margin-left: 0;
+}
+header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+   
+    box-shadow: 1px 2px 20px rgb(134, 133, 133);
+}
+
+
+#logo{  
+    width: 7%;
+
+}
+#bar{
+    display: none;
+}
+#cancel_bar{
+    display: none;
+}
+.menu{
+    flex: 1;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2rem;
+}
+.menu ul{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-top:-1rem;
+}
+.menu ul li{
+    padding: 0.5rem;
+    list-style: none;
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+}
+.menu ul li :hover{
+    color: #6b7e57;
+}
+.locatio{
+    flex: 1;
+    
+}
+.locatio ul{
+    display: flex;
+    margin-left: 20%;
+    align-items: center;
+    margin-top: -1rem;
+}
+.locatio ul li{
+    padding: 1rem;
+    list-style: none;
+    margin-right: 4rem;
+}
+.locatio ul li a:hover{
+    color: #6b7e57;
+}
+.locatio ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#btn1{
+    padding: 0.5rem 1.5rem;
+    border: 1px solid black;
+    border-radius: 2rem;
+    font-weight: bold;
+    margin-right: -5rem;
+}
+#btn2{
+    padding: 0.5rem 2rem;
+    border: 1px solid black;
+    border-radius: 2rem;
+    background-color: black;
+    font-weight: bold;
+    color: white;
+}
+.s_reward{
+    width: 100%;
+    height: 7vh;
+    background-color: rgb(12, 48, 12);
+    position: sticky;
+    top: 0;
+}
+.s_reward h2{
+    margin-left: 6rem;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 17px 0;
+    color: white;
+    margin-left: 6.5rem;
+    text-align: left;
+  
+    
+}
+.main{
+    width: 100%;
+    height: 81.7vh;
+    background-color:rgb(183, 204, 196);
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    flex: 1;
+    width: 50%;
+    height: 80vh;
+    
+}
+.left_text{
+   
+  padding: 15rem;
+}
+.left_text h1{
+    margin-top: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.left_text p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 1rem;
+}
+.left_text p a{
+    color: black;
+}
+.left_text  button{
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: green;
+    font-weight: bold;
+    color: white;
+}
+.right{
+    flex: 1;
+}
+.right img{
+    width: 110%;
+    margin-left: -5rem;
+}
+
+.g h1{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 7rem;
+}
+.g p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.getting{
+    width: 60%;
+    margin-left: 20%;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.box{
+    width: 30%;
+    height: 20vh;
+    
+   
+}
+.box button{
+ 
+    padding: 12px 15.5px;
+    margin-left: 39%;
+    margin-top: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid green;
+    border-radius: 50%;
+}
+.box h1{
+    margin-top: 2rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box p a{
+    color: green;
+    text-align: center;
+}
+.box p{
+    text-align: center;
+}
+
+
+.get{
+    margin-top: 10rem;
+    width: 100%;
+    background-color: rgb(201, 227, 236);
+}
+.get h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding: 25px;
+}
+.favorite{
+    width: 30%;
+    
+    margin-left: 35%;
+    display: flex;
+    justify-content: space-around;
+}
+#star {
+    color: rgb(197, 170, 17);
+    font-size: 20px;
+}
+.costomize{
+    width: 100%;
+    background-color:rgb(183, 204, 196);
+    
+}
+.m_drink{
+    width: 40%;
+    height: 20vh;
+    padding: 30px;
+    margin-left: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+.m_drink img{
+    flex: 1;
+    width: 50%;
+}
+.text{
+    padding: 50px;
+}
+.text h1{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#endless{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+}
+#joining{
+    text-align: center;
+}
+.box{
+    padding: 20px;
+}
+.box img{
+    width: 30%;
+    margin-left: 30%;
+}
+.box a{
+    margin-left: 20%;
+    color: rgb(31, 51, 31);
+    padding: 50px;
+}
+
+/* Cash_Card */
+.cash_card{
+    width: 100%;
+    margin-top: 10rem;
+    background-color: antiquewhite;
+}
+.cash_card h1{
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.cash_card p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.cash{
+    width: 70%;
+    height: 20vh;
+    margin: 5rem;
+    margin-left: 6rem;
+    display: flex;
+    justify-content: space-around;
+}
+.cash_box{
+    width: 20%;
+   
+    
+}
+.cash_box1{
+    width: 30%;
+   
+    display: flex;
+    justify-content: space-around;
+}
+.cash_box1 img{
+    width: 50%;
+}
+
+#Cash_hr{
+    margin-top: -2rem;
+    width: 100%;
+}
+.box_text{
+    width: 90%;
+   
+    margin-left: -5rem;
+}
+.box_text h1{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.box_text p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    
+}
+
+/* Coming */
+
+.coming{
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(34, 59, 34);
+}
+.data{
+    width: 95%;
+    margin-top: 1.25em;
+    margin-left: 2.5rem;
+    height: 60vh;
+   
+    background-color:azure;
+}
+
+.g1{
+   padding: 5px;
+}
+.g1 h1{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 7rem;
+    
+}
+.g1 p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.getting1{
+    width: 70%;
+    margin-left: 15%;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.box1{
+    width: 30%;
+    height: 20vh;
+    
+   
+}
+.box1 img{
+    width: 50%;
+    margin-left: 5rem;
+}
+.box1 h1{
+    margin-top: 2rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box1 p a{
+    color: green;
+    text-align: center;
+}
+.box1 p{
+    text-align: center;
+}
+.data button{
+    padding: 0.5rem 2rem;
+    border: none;
+    background-color: rgb(47, 122, 47);
+    border-radius: 1rem;
+    margin-left: 44%;
+    margin-top: 2rem;
+  
+}
+.data button a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
+}
+.data button:hover {
+    background-color: rgb(98, 137, 98);
+}
+ /* Question */
+
+ .question{
+    margin-left: 16rem;
+    padding: 5rem;
+ }
+ .question h1{
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .question p{
+    font-family: Arial, Helvetica, sans-serif;
+ }
+  /* Article */
+  .article{
+    width: 100%;
+    
+  }
+
+.article_top{
+    width: 90%;
+    height: 25vh;
+    margin: auto;
+   
+  }
+.article_top p{
+    padding: 5px;
+  }
+.article_butom{
+    width: 90%;
+    height: 50vh;
+    margin: auto;
+  
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+  }
+.left{
+    width: 100%;
+    padding: 10px 10px;
+}
+.left h1{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+.right{
+    padding: 10px 10px;
+}
+.right h1{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+/* Footer */
+#head_footer{
+    margin-top:3rem ;
+    color: gray;
+}
+.footer{
+    width: 70%;
+    height: 60vh;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+div ul li{
+    list-style: none;
+    margin-top: 2rem;
+}
+div ul li a{
+    text-decoration: none;
+    color: rgb(125, 123, 123);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div ul li a:hover{
+    color: black;
+}
+#about{
+    margin-left: 3rem;
+    font-size: 20px;
+    
+}
+#carrer{
+    margin-left: 2.5rem;
+    font-size: 20px;
+}
+#socail{
+    margin-left: 2.5rem;
+    font-size: 20px;
+}
+#business{
+    margin-left: 2.5rem;
+    font-size: 20px;
+}
+#order{
+    margin-left: 2.5rem;
+    font-size: 20px;
+}
+.social{
+    width: 100%;
+    height: 60vh;
+  
+    margin-top: 2rem;
+}
+.social_b {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(255, 253, 253);
+    margin-left: 7rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between
+}
+.social ul{
+    margin-left: 6rem;
+}
+#last_footer{
+    margin-left: 8.5rem;
+    font-size:15px;
+    color: gray;
+
+
+}
+
+/* Ressponsive */
+
+@media only screen and (max-width:600px){
+    header{
+        width: 600px;
+    }
+    #bar{
+        display: block;
+        font-size: 30px;
+        margin-left: 15rem;
+    }
+    #cancel_bar{
+        display: none;
+        font-size: 40px;
+        margin-left:5rem;
+    }
+    #logo{
+        width: 25%;
+    }
+  
+
+    .menu ul{
+        position: absolute;
+        width: 100%;
+        
+        background-color: rgb(139, 139, 139);
+        flex: 1;
+        display: block;
+        flex-direction: column;
+        padding: 0.5px;
+        margin-top:16rem;
+        /* margin-left:-9%; */
+        margin-left: 100%;
+       
+    }
+    .menu ul li{
+        padding: 1px;
+        list-style: none;
+        margin-left: 2rem;
+        margin-top: 2;
+    
+        
+       
+        
+    }
+    .menu ul li a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-family: Arial, Helvetica, sans-serif;
+       font-weight: bold;
+    }
+    .menu ul li :hover{
+        color: #6b7e57;
+    }
+
+    .locatio ul{
+        display: none;
+    }
+
+    .s_reward{
+        width: 109%;
+        height: 7vh;
+        background-color: rgb(12, 48, 12);
+        position: sticky;
+        top: 0;
+    }
+    .s_reward h2{
+        
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        padding: 17px 0;
+        color: white;
+        margin-left: 2.5rem; 
+    }
+
+    .main{
+        width: 109%;
+        height: 81.7vh;
+        background-color:rgb(183, 204, 196);
+        flex-direction: column;
+    }
+    .left{
+        flex: 1;
+        width: 50%;
+        height: 80vh;
+        
+    }
+    .left_text{
+      
+      padding: 2rem;
+    }
+    .left_text h1{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+    .left_text p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        margin-top: 1rem;
+      
+    }
+    .left_text p a{
+        color: black;
+    }
+    .left_text  button{
+        padding: 0.5rem 1rem;
+        border: none;
+        border-radius: 1rem;
+        background-color: green;
+        font-weight: bold;
+        color: white;
+    }
+    .right{
+        flex: 1;
+    }
+    .right img{
+        width: 100%;
+        margin-left: 5rem;
+        margin-top: 1rem;
+    }
+
+    .getting{
+        width: 60%;
+        margin-left: 20%;
+        flex-direction: column;
+       
+    }
+    .box{
+        width: 100%;
+        height: 20vh;
+        
+       
+    }
+    .box button{
+        padding: 12px 15.5px;
+        margin-left: -5rem;
+        margin-top: 2rem;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 2px solid green;
+        border-radius: 50%;
+    }
+    .box h1{
+        margin-top: -2.5rem;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+    }
+    .box p a{
+        color: green;
+        text-align: center;
+    }
+    .box p{
+        text-align: center;
+    }
+
+    .get{
+        margin-top: 10rem;
+        width: 109%;
+        background-color: rgb(201, 227, 236);
+    }
+    .get h1{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        padding: 15px;
+    }
+    .favorite{
+        width: 30%;
+        margin-left: 3rem;
+        display: flex;
+        justify-content: space-around;
+        padding: 0px 1px;
+    }
+    #star {
+        color: rgb(197, 170, 17);
+        font-size: 20px;
+    }
+    
+
+    .costomize{
+        width: 109%;
+        background-color:rgb(183, 204, 196);
+        
+    }
+    .m_drink{
+        width: 100%;
+        height: 50vh;
+        padding: 30px;
+        margin-left: 30%;
+       flex-direction: column;
+    }
+    .m_drink img{
+        width: 80%;
+        margin-left: -8rem;
+        padding: 10px;
+    }
+    .text{
+        width: 70%;
+        padding: 40px;
+        margin: auto;
+        
+        margin-left: -8rem;
+    }
+    .text h1{
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    .text p{
+        font-size:20px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: rem;
+        
+    }
+
+ .box{
+    padding: 50px;
+    margin-left: -2.5rem;
+    margin-top: -3rem;
+    }
+    .box img{
+        width: 30%;
+        margin-left: 0;
+        padding: 70px;
+    }
+    .box a{
+        margin-left: 10%;
+        color: rgb(31, 51, 31);
+        padding: 50px;
+    }
+
+    .cash_card{
+        width: 105%;
+        height: 170vh;
+        margin-top: 10rem;
+        background-color: antiquewhite;
+    }
+    .cash_card h1{
+        padding: 10px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+    }
+    .cash_card p{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+    }
+    .cash{
+        width: 70%;
+        margin: 5rem;
+        margin-left: 6rem;
+        flex-direction: column;
+    }
+    .cash_box{
+        width: 100%;    
+        margin-left: -10rem;
+        margin-top: -3rem;
+        
+    }
+    .cash_box h1{
+        font-size: 15px;
+       
+    }
+    #Cash_hr{
+        margin-top: 20rem;
+        width: 100%;
+    }
+    .cash_box1{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-left: -6rem;
+        margin-top: 3rem;
+    }
+    .cash_box1 img{
+        width: 50%;
+    }
+    .box_text{
+        width: 90%;
+       
+        margin-left: -5rem;
+    }
+    .box_text h1{
+        
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        
+    }
+    .box_text p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        
+    }
+   
+    
+
+   
+
+
+    .data{
+        width: 103%;
+        margin-top:-1.5rem;
+        margin-left: 0rem;
+        height: 75vh;
+       
+        background-color:azure;
+    }
+    
+    .g1{
+       padding: 5px;
+    }
+    .g1 h1{
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 7rem;
+        
+    }
+    .g1 p{
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+    .getting1{
+        width: 70%;
+        margin-left: 15%;
+        flex-direction: column;
+       
+    }
+    .box1{
+        width: 100%;
+        height: 20vh;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        
+       
+    }
+    .box1 img{
+        width: 50%;
+        margin-left: -2.5rem;
+    }
+    .box1 h1{
+        margin-top: 2rem;
+        
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .box1 p a{
+        color: green;
+        text-align: center;
+    }
+    .box1 p{
+        text-align: center;
+    }
+    .data button{
+        padding: 1rem 2rem;
+        border: none;
+        background-color: rgb(47, 122, 47);
+        border-radius: 2rem;
+        margin-left: 22.5%;
+        margin-top: 2rem;
+      
+    }
+    .data button a{
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 15px;
+    }
+    .data button:hover {
+        background-color: rgb(98, 137, 98);
+    }
+
+
+    .question{
+        margin-left: 1rem;
+        padding: 0rem;
+        margin-top: 20rem;
+     }
+     .question h1{
+        font-family: Arial, Helvetica, sans-serif;
+     }
+     .question p{
+        font-family: Arial, Helvetica, sans-serif;
+     }
+    
+
+
+     .article{
+        width: 100%;
+        
+      }
+    
+    .article_top{
+        width: 90%;
+        height: 25vh;
+        margin: auto;
+       
+      }
+    .article_top p{
+        padding: 5px;
+      }
+    .article_butom{
+        width: 90%;
+        height: 50vh;
+        margin: auto; 
+        flex-direction: column;
+        margin-top: 40rem;
+      }
+    .left{
+        width: 100%;
+        padding: 10px 10px;
+    }
+    .left h1{
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: gray;
+    }
+    .right{
+        padding: 10px 10px;
+    }
+    .right h1{
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: gray;
+    }
+
+    /* Footer */
+    #head_footer{
+        margin-top:32rem ;
+        color: gray;
+    }
+    .footer{
+        width: 70%;
+        height: 60vh;
+        margin-left: 0rem;
+        margin-top: 2rem;
+    flex-direction: column;
+    }
+
+    div ul li{
+        list-style: none;
+        margin-top: 2rem;
+    }
+    div ul li a{
+        text-decoration: none;
+        color: rgb(125, 123, 123);
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    div ul li a:hover{
+        color: black;
+    }
+    #about{
+        margin-left: 3rem;
+        font-size: 20px;
+        
+    }
+    #carrer{
+        margin-left: 2.5rem;
+        font-size: 20px;
+    }
+    #socail{
+        margin-left: 2.5rem;
+        font-size: 20px;
+    }
+    #business{
+        margin-left: 2.5rem;
+        font-size: 20px;
+    }
+    #order{
+        margin-left: 2.5rem;
+        font-size: 20px;
+    }
+    .social{
+        width: 100%;
+        height: 60vh;
+    
+        margin-top: 2rem;
+    }
+    .social_b {
+        width: 40px;
+        height: 40px;
+        border: none;
+        border-radius: 50%;
+        background-color: rgb(255, 253, 253);
+        margin-left: 2rem;
+        margin-top: 80rem;
+        display: flex;
+        justify-content: space-between
+    }
+    .social ul{
+        margin-left: 1rem;
+    }
+    #last_footer{
+        margin-left: 3rem;
+    }
+    
+}

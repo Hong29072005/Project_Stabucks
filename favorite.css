@@ -1,0 +1,247 @@
+*{
+    margin-top: 0;
+    margin-left: 0;
+}
+header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+   
+    box-shadow: 1px 2px 20px rgb(134, 133, 133);
+}
+
+
+#logo{  
+    width: 7%;
+
+}
+.menu{
+    flex: 1;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2rem;
+}
+.menu ul{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-top:1rem;
+}
+.menu ul li{
+    padding: 0.5rem;
+    list-style: none;
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+}
+.menu ul li :hover{
+    color: #6b7e57;
+}
+.locatio{
+    flex: 1;
+    
+}
+.locatio ul{
+    display: flex;
+    margin-left: 20%;
+    align-items: center;
+    margin-top: 1rem;
+}
+.locatio ul li{
+    padding: 1rem;
+    list-style: none;
+    margin-right: 4rem;
+}
+.locatio ul li a:hover{
+    color: #6b7e57;
+}
+.locatio ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#btn1{
+    padding: 0.5rem 1.5rem;
+    border: 1px solid black;
+    border-radius: 2rem;
+    font-weight: bold;
+    margin-right: -5rem;
+}
+#btn2{
+    padding: 0.5rem 2rem;
+    border: 1px solid black;
+    border-radius: 2rem;
+    background-color: black;
+    font-weight: bold;
+    color: white;
+}
+/* End nav bar */
+.menu_butom {
+    width: 10%;
+   
+}
+.menu_butom ul{
+    margin-left: 3.5rem;
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu_butom ul li{
+    list-style: none;
+    padding: 10px;
+}
+.menu_butom ul li a{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+   
+}
+/* favorite */
+.favorite{
+    width: 15%;
+    height: 50vh;
+  
+    margin-left: 6rem;
+}
+.favorite img{
+    width: 90%;
+}
+.favorite h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-top: 1rem;
+}
+.favorite p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: gray;
+}
+/* button */
+.button{
+    width: 100%;
+}
+.button button{
+    padding: 0.5rem 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    border: 1.5px solid black;
+    border-radius: 1.5rem;
+}
+.button button:hover{
+    background-color: blanchedalmond;
+}
+#btt1{
+    padding: 0.5rem 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    border:none;
+    border-radius: 1.5rem;
+    background-color: black;
+    color: white; 
+    margin-left: 1rem;
+}
+#btt1:hover{
+    background-color: rgb(9, 91, 44);
+}
+/* Footer */
+.footer{
+    width: 70%;
+    height: 60vh;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+div ul li{
+    list-style: none;
+    margin-top: 2rem;
+}
+div ul li a{
+    text-decoration: none;
+    color: rgb(125, 123, 123);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div ul li a:hover{
+    color: black;
+}
+#about{
+    margin-left: 3rem;
+    font-size: 20px;
+    
+}
+#carrer{
+    margin-left: 2.5rem;
+    font-size: 20px;
+}
+#socail{
+    margin-left: 2.5rem;
+    font-size: 20px;
+}
+#business{
+    margin-left: 2.5rem;
+    font-size: 20px;
+}
+#order{
+    margin-left: 2.5rem;
+    font-size: 20px;
+}
+.social{
+    width: 100%;
+    height: 60vh;
+  
+    margin-top: 2rem;
+}
+.social_b {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(255, 253, 253);
+    margin-left: 7rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between
+}
+.social ul{
+    margin-left: 6rem;
+}
+.stor{
+    width: 100%;
+    height: 8vh;
+    background-color: #1d3106;
+    position: sticky;
+    bottom: 0;
+}
+.txt{
+    padding: 10px;
+} 
+.txt h3{
+    margin-bottom: 0rem;
+    margin-left: 20rem;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+   
+}
+
+.txt h2{
+    margin-left: 20rem;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+   
+}
+
